@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titl HTML</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Exemplo de Exibição de Código HTML</title>
+    </head>
+    <body>
+       
+        <button><small><a href="#inicio">Voltar</a></small></button>
+
+        <h1 id="inicio">HTML: Estrutura e Tags para Construção de Páginas Web</h1>
+        <hr>
+
+        <p>
+            O HTML foi introduzido em 1991 e evoluiu para a versão 5, que trouxe uma ampla gama de recursos e funcionalidades para aprimorar o desenvolvimento web.Sua principal função é estruturar páginas da web, utilizando elementos ou tags HTML que se interconectam para formar o conteúdo da página.
+        </p>
+
+        <p>
+            Esses elementos são essenciais para informar ao navegador como interpretar e exibir diferentes partes da página, como títulos, parágrafos, imagens, links, entre outros elementos.Para que um documento HTML seja corretamente interpretado pelo navegador, ele deve ter a extensão .html e seguir a sintaxe específica das tags HTML. As tags são formatadas com um sinal de menor que (<), seguido pelo nome do elemento e fechadas com um sinal de maior que (>). Algumas tags requerem um fechamento explícito com uma barra (/), enquanto outras são autocerrantes (self-closing) e não necessitam desse caractere.
+        </p>
+
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tiposdetags">Tipos de Tags</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#imagens">Imagens</a></li>
+        </ul>
+
+        <hr>
+
+        <h2 id="estrutura">Estrutura básica do HTML</h2>
+        <button><small><a href="#inicio">Voltar</a></small>
+        </button>
+        
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang=&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;title&gt;Minha Página HTML&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+                    &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                </code>
+        </pre>
+        
+        <p>
+            <strong>&lt;!DOCTYPE html&gt;</strong>: 
+            Indica ao navegador que o documento é do tipo HTML e especifica sua versão. Quando simplesmente escrito como html, refere-se à versão mais recente do HTML.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;html&gt;</strong>: 
+            Funciona como a raiz do documento HTML, agindo como um contêiner que envolve todos os outros elementos HTML.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;body&gt;</strong>: 
+            Contém todo o conteúdo visível para o usuário na página, como texto, imagens e vídeos, estruturado através das demais tags HTML.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;script&gt;</strong>: 
+            Inclui instruções de script diretamente no documento ou aponta para um arquivo de script externo usando o atributo src.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;head&gt;</strong>: 
+            Contém informaçõe o documento interpretadas pelo navegador, como metadados, título da página e links para folhas de estilo.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;meta&gt;</strong>: 
+            Define metadados que fornecem informaçõe o documento HTML, como o conjunto de caracteres utilizado, autor, configurações da janela de visualização, entre outros.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;title&gt;</strong>: 
+            A tag é utilizada no elemento &lt;head&gt; de um documento HTML para definir o título da página web. Este título é exibido na barra de título do navegador ou na aba quando a página é carregada.
+        </p>
+
+        <br>
+
+        <br>
+
+        <hr>
+
+        <h2 id="tiposdetags">Tipos de Tags</h2>
+        <button><small><a href="#inicio">Voltar</a></small></button>
+    
+        <p>
+            As tags de formatação de texto em HTML são usadas para aplicar estilos e modificar a apresentação visual do texto em uma página web. Elas permitem que os desenvolvedores especifiquem como o texto deve ser exibido sem alterar o significado ou a estrutura semântica do conteúdo. Aqui estão algumas das principais tags de formatação de texto em HTML:
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;b&gt;</strong>: Define um texto em <b>negrito</b>.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;strong&gt;</strong>: Define um texto que é semanticamente importante e geralmente é exibido em <strong>negrito</strong>. É usado para indicar ênfase forte, que pode ser interpretada por leitores de tela e motores de busca.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;i&gt;</strong>: Define um texto em <i>itálico</i>.
+        </p>
+
+        <br>
+        
+        <p>
+            <strong>&lt;em&gt;</strong>:  Define um texto que é semanticamente enfatizado. Geralmente é exibido em <i>itálico</i>, mas seu propósito é fornecer ênfase adicional ao conteúdo.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;u&gt;</strong>: Define um texto <u>sublinhado</u>. É menos comum hoje em dia devido a diretrizes de acessibilidade que recomendam não usar sublinhado para além de links.
+        </p>
+
+        <br>
+
+        <p>
+            <strong>&lt;s&gt;</strong>: Define um texto que deve ser <s>riscado</s>.
+        </p>
+
+        <br>
+        
+        <p>    
+            <strong>&lt;del&gt;</strong>: Define um texto que foi removido do documento. É geralmente exibido com linha através do texto.
+        </p>
+
+        <br>
+
+        <p>    
+            <strong>&lt;ins&gt;</strong>: Define um texto que foi inserido no documento. É geralmente exibido <ins>sublinhado</ins>.
+        </p>
+
+        <br>
+
+        <p>    
+            <strong>&lt;mark&gt;</strong>: Define um texto que foi <mark>removido</mark> do documento. É geralmente exibido com linha através do texto.
+        </p>
+
+        <br>
+
+        <p>    
+            <strong>&lt;h1&gt; a  &lt;h6&gt;</strong>: As tags &lt;h1&gt; até &lt;h6&gt; são usadas em HTML para definir os cabeçalhos de seção em uma página web. Elas representam diferentes níveis de importância e hierarquia do conteúdo, com &lt;h1&gt; sendo o mais importante e &lt;h6&gt; o menos importante.
+        </p>
+        
+        <br>
+
+        <p>
+            <b>Exemplos</b>:
+            <br>
+            <h1>Este é um título principal</h1>
+            <h2>Este é um título de seção principal</h2>
+            <h3>Este é um título de subseção</h3>
+            <h4>Este é um título de outra subseção</h4>
+            <h5>Este é um título de subseção menos importante</h5>
+            <h6>Este é um título de subseção muito específica</h6>
+        </p>
+
+        <br>
+
+        <p>    
+            <strong>&lt;pre&gt;</strong>: A tag &lt;pre&gt; em HTML é usada para representar texto pré-formatado, o que significa que o texto dentro dela é renderizado mantendo espaços em branco, quebras de linha e qualquer formatação original. É ideal para exibir blocos de código, poesia ou qualquer texto que dependa da formatação exata.
+        </p>
+       
+        <br>
+
+        <p>    
+            <strong>&lt;q&gt;</strong>: Esta tag HTML é utilizada para marcar citações curtas dentro de um texto. Ela é geralmente renderizada pelo navegador com aspas ao redor do texto citado.
+        </p>
+
+        <p>    
+            <strong>&lt;blockquote&gt;</strong>:  A tag  &lt;blockquote&gt; em HTML  utilizada para indicar uma citação em bloco dentro de um documento HTML. Ela é geralmente usada quando se deseja destacar um trecho de texto que foi retirado de outra fonte, como um livro, artigo, discurso, entre outros. 
+        </p>
+
+        <br>
+
+        <br>
+
+        <p>    
+            <strong>&lt;sup&gt;</strong>: A tag &lt;sup&gt; em HTML é usada para renderizar texto sobrescrito, que é geralmente utilizado para exibir expoentes ou indicadores de nota de rodapé.
+        </p>
+       
+        <br>
+
+        <p>    
+            <strong>&lt;br&gt;</strong>: A tag &lt;br&gt; em HTML é usada para criar uma quebra de linha dentro de um texto, sem iniciar um novo parágrafo. É uma tag vazia, o que significa que não possui tag de fechamento.
+        </p>
+
+        <br>
+
+        <p>    
+            <strong>&lt;hr&gt;</strong>:  A tag &lt;hr&gt; em HTML é usada para criar uma linha horizontal que separa o conteúdo dentro de um documento. É útil para dividir seções distintas ou para marcar uma mudança significativa de conteúdo.
+        </p>
+
+        <br>
+
+        <p>    
+            <strong>&lt;sub&gt;</strong>;: A tag &lt;sub&gt; em HTML é usada para renderizar texto como subscrito, o que significa que o texto é exibido abaixo da linha de base normal do texto, geralmente para fórmulas químicas, notas de rodapé ou expressões matemáticas.
+        </p>
+
+        <br>
+       
+        <p>    
+            <strong>&lt;code&gt;</strong>:  A tag  &lt;code&gt; em HTML é usada para definir blocos de código ou partes de código em um documento. Ela indica que o texto contido deve ser tratado como código e é frequentemente renderizada com uma fonte monoespaçada para diferenciá-la do texto normal.
+        </p>
+
+        <br>
+
+        <h3 id="listas">Listas Ordenadas e Não Ordenadas</h3>
+        <button><small><a href="#inicio">Voltar</a></small>
+        </button>
+
+        <br>
+
+        <p>    
+            <b>Listas Ordenadas &lt;ol&gt;</b>:  A tag &lt;ol&gt; é usada para criar listas ordenadas, onde cada item da lista é numerado sequencialmente.
+        </p>
+
+        <p>
+            <b>Exemplos</b>:
+            <br>
+            <pre>
+                &lt;ol&gt;
+                    &lt;li&gt;Item 1&lt;li&gt;
+                    &lt;li&gt;Item 2&lt;li&gt;
+                    &lt;li&gt;Item 3&lt;li&gt;
+                &lt;ol&gt;
+                
+            </pre>
+        </p>
+
+        <br>
+        
+        <p>    
+            <b>Listas Não Ordenadas &lt;ul&gt;</b>:  A tag &lt;ul&gt; é usada para criar listas não ordenadas, onde cada item da lista é marcado com um ponto (•) por padrão, mas isso pode variar dependendo do navegador ou do estilo CSS aplicado.
+        </p>
+
+        <p>
+            <b>Exemplos</b>:
+            <br>
+            <pre>
+                &lt;ul&gt;
+                    &lt;li&gt;Item 1&lt;li&gt;
+                    &lt;li&gt;Item 2&lt;li&gt;
+                    &lt;li&gt;Item 3&lt;li&gt;
+                &lt;ul&gt;
+                
+            </pre>
+        </p>
+
+        <h3 id="links">Links</h3>
+        <button><small><a href="#inicio">Voltar</a></small>
+        </button>
+
+        <br>
+
+        <p>    
+            &lt;a&gt;:  A tag &lt;a&gt;é usada para criar links em HTML. Ela é essencial para navegação e interatividade em páginas web.
+        </p>
+
+        <pre>
+            <code>
+                &lt;a&gt; href="https://www.example.com">Exemplo de link &lt;/a&gt;
+
+            </code>
+        </pre>
+
+        <h4>Atributos importantes da tag &lt;a&gt;:</h4>
+            
+            <ul>
+                <li>&lt;href&gt;: Define o destino do link, que pode ser uma URL, um arquivo ou um âncora interna.</li>
+                <li>&lt;target&gt;: Define onde abrir o link (por exemplo, em uma nova janela ou na mesma janela).</li>
+                <li>&lt;title&gt;: Fornece um texto descritivo quando o usuário passa o mouse sobre o link.</li>
+            </ul>
+
+        </p>
+
+        <br>
+
+        <h3 id="imagens">Imagens</h3>
+        <button><small><a href="#inicio">Voltar</a></small>
+        </button>
+
+        <br>
+
+        <p>    
+            A tag &lt;img&gt; em HTML é usada para inserir imagens em uma página web. Ela não possui uma tag de fechamento e usa atributos para especificar detalhes sobre a imagem que será exibida. Aqui estão os principais atributos da tag &lt;img&gt;:
+        </p>
+
+        <pre>
+            <code>
+                &lt;src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200" title="Título da imagem"&gt;
+            </code>
+        </pre>
+
+        <h4>Atributos importantes da tag &lt;a&gt;:</h4>
+            
+            <ul>
+                <li>&lt;src&gt;: Especifica o caminho (URL) para a imagem. É um atributo obrigatório.</li>
+                <li>&lt;alt&gt;: Define um texto alternativo para a imagem, que é exibido quando a imagem não pode ser carregada ou acessada por usuários com deficiência visual. Também é importante para SEO.</li>
+                <li>&lt;width&gt; e &lt;height&gt;: FEspecificam a largura e a altura da imagem, respectivamente, em pixels. São opcionais, mas recomendados para melhorar o desempenho da página.</li>
+                <li>&lt;title&gt;:  Fornece um texto descritivo que aparece quando o usuário passa o mouse sobre a imagem. É opcional.</li>
+            </ul>
+
+        </p>
+
+        <br>
+
+        <footer>
+            Criado por <a href="https://github.com/damacosta">Danielle Costa</a>. 
+        </footer>
+
+    </body>
+    </html>
+    
+</body>
+</html>
